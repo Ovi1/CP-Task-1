@@ -33,3 +33,29 @@
 > Nėra vartotojo paskyros, viskas "anonimiška".
 
 > Administravimas nebūtinas 
+
+@TODO: 
+
+- atnaujinus (refresh/navigation) langą ar gryžus į tinklapį turi prisiminti paskutini sprendžiamą klausimą, taškų sumą, etc..
+- galimybė pradėti testą iš naujo // Atnaujinus langą tai, padaro.
+- Vue.js sometimes stuck's on rendering next question.
+
+#Launch App
+
+- CD in to copied rep. folder
+- add Mysql DB credits to env. file //used XAMPP for MySql
+- php artisan migrate
+- php artisan db:seed
+- npm install
+- php artisan serve // localhost:8000
+- npm run watch //watching for file changes
+- npm run prod // for production // compiles js, scss files.
+
+#Used 
+
+- Laravel Framework 5.4.28
+- Vue.js 2.3.4
+
+
+
+
